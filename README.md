@@ -5,9 +5,7 @@ repo to practice git pull
 Repository Setup:
 
     git init: Initializes a new Git repository.
-    
     git clone [repository]: Clones a remote repository to your local machine.
-    
     git config: Configures Git settings.
 
 Staging and Committing:
@@ -19,6 +17,7 @@ Staging and Committing:
     git commit --amend: Modifies the most recent commit.
 
 Branching and Merging:
+
     git branch: Manages branches in Git.
     git checkout [branch]: Switches to a different branch or restores files from a specific commit.
     git merge [branch]: Combines changes from different branches.
@@ -26,6 +25,7 @@ Branching and Merging:
     git cherry-pick [commit]: Applies the changes of a specific commit onto the current branch.
 
 Remote Repository Interaction:
+
     git remote add [name] [url]: Adds a remote repository.
     git remote remove [name]: Removes a remote repository.
     git fetch [remote]: Fetches the latest changes from a remote repository.
@@ -33,6 +33,7 @@ Remote Repository Interaction:
     git push [remote] [branch]: Uploads local branch commits to a remote repository.
 
 Viewing and Managing History:
+
     git log: Displays the commit history of the repository.
     git show [commit]: Shows the details of a specific commit.
     git diff: Shows the differences between commits, branches, or files.
@@ -40,11 +41,13 @@ Viewing and Managing History:
     git stash: Temporarily saves changes that are not ready to be committed.
 
 Tagging:
+
     git tag [name]: Creates a tag for a specific commit.
     git tag -l: Lists all available tags.
     git tag -a [name] -m "[message]": Creates an annotated tag with a message.
 
 Collaboration:
+
     git branch -r: Lists remote branches.
     git branch -a: Lists both local and remote branches.
     git push [remote] --delete [branch]: Deletes a remote branch.
@@ -52,6 +55,7 @@ Collaboration:
     git checkout -b [branch] [remote]/[branch]: Creates a new local branch based on a remote branch.
 
 Miscellaneous:
+
     git status: Shows the current status of the repository.
     git config -l: Lists all Git configuration settings.
     git clean: Removes untracked files from the working directory.
