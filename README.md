@@ -3,8 +3,11 @@ repo to practice git pull
 
 <!-- Adding GIT commands. -->
 Repository Setup:
+
     git init: Initializes a new Git repository.
+    
     git clone [repository]: Clones a remote repository to your local machine.
+    
     git config: Configures Git settings.
 
 Staging and Committing:
