@@ -11,6 +11,7 @@ Repository Setup:
     git config: Configures Git settings.
 
 Staging and Committing:
+
     git add [file]: Adds a file to the staging area.
     git rm [file]: Removes a file from the repository.
     git mv [source] [destination]: Moves or renames a file.
