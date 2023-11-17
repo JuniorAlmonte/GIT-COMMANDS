@@ -1,4 +1,4 @@
-# Repositorio para practicar git pull
+# GIT COMMANDS
 repo to practice git pull
 
 <!-- Adding GIT commands. -->
